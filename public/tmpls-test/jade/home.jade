@@ -1,0 +1,13 @@
+// partial-home.html
+.jumbotron.text-center
+  h1 The Homey Page
+  |     
+  p
+    | This page demonstrates 
+    span.text-danger nested
+    |  views.
+  |     
+  a.btn.btn-primary(ui-sref='.list') List
+  |     
+  a.btn.btn-danger(ui-sref='.paragraph') Paragraph
+div(ui-view='')

@@ -1,0 +1,19 @@
+// partial-home.html
+.jumbotron
+    div(align='center')
+        h1 Home Page
+    p
+        | This page demonstrates
+        span.text-danger nested
+        |  views.
+    p
+        | This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+    p
+        div(align='center')
+            a.btn.btn-primary.btn-lg Learn more
+            p
+            p
+                a.btn.btn-primary(ui-sref='.list') List
+                a.btn.btn-danger(ui-sref='.paragraph') Paragraph
+
+div(ui-view='')

@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+    title= title
+    //link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='stylesheets/myapp.css')
+
+    body(ng-app='routerApp')
+
+        block scripts
+
+            script(src='angular/angular.min.js')
+            script(src='angular-animate/angular-animate.min.js')
+            script(src='angular-strap/dist/angular-strap.min.js')
+            script(src='angular-strap/dist/angular-strap.tpl.min.js')
+            script(src='angular-ui-router/release/angular-ui-router.min.js')
+            script(src='d3/d3.min.js')
+
+            script(src='javascripts/app.js')
+            script(src='javascripts/controllers/homeCtrl.js')
+            script(src='javascripts/directives/simple.js')
+
+    block content

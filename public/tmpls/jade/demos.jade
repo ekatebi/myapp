@@ -1,0 +1,14 @@
+.jumbotron.text-center
+    h1 Demos Page
+
+    //input(type='text', placeholder='Enter a city', value='nyc')
+    //input(type='text', ng-model='city', placeholder='Enter a city', value='nyc')
+    //input(type='text', ng-model='city', value='nyc')
+    //div(ng-sparkline='', ng-city="San Francisco", width='400')
+    //    div(ng-sparkline='', ng-city="Boston")
+
+    div(ng-sparkline='', city='Boston-ma', temp='max', width='400')
+        h3 Boston (max)
+
+    div(ng-sparkline='', city='Boston-ma', temp='min', width='400')
+        h3 Boston (min)
